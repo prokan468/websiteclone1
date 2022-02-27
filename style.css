@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #1e0997;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #f7c4f7;
+}
+
+.right {
+  right: 0;
+  background-color: #160768;
+  background-image: url("lady222.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: bottom;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #1e0997;
+  padding: 20px;
+}
+
+.signup {
+  justify-content: center;
+}
+.signup button {
+  padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#1e0997;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+  width: 220px;
+}
+
+.two-col .col1,
+.two-col .col2 {
+    width: 40%;
+}
+
+.two-col .col1 {
+    float: left;
+}
+
+.two-col .col2 {
+    float: right;
+}
+
+.two-col label {
+    display: block;
+}
+a:link {
+    font-weight: 800; 
+    text-decoration: none;
+    color: #1e0097
+}
+a:hover {
+    text-decoration: underline;
+}
